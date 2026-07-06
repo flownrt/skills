@@ -1,0 +1,86 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "flownrt"
+  },
+  "description": "Curated, general-purpose Agent Skills you can install by name.",
+  "plugins": [
+    {
+      "name": "study",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/study"],
+      "description": "A personal tutor that helps you learn a subject deeply across many sessions, building a persistent workspace (goal, sources, interactive lessons, progress records, cheat sheets) so learning compounds instead of restarting each time.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "cross-examine",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/cross-examine"],
+      "description": "Interrogates you one question at a time to pressure-test a plan or design, surfacing blind spots and hidden assumptions, then compiles a consolidated plan.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "red-team",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/red-team"],
+      "description": "Builds the strongest case against a position – a fair steelman of the target, the most damaging objections ranked by severity, and the best defense it can still mount. Works on your own thinking or someone else's.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "scope-it",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/scope-it"],
+      "description": "Turns a vague request into a concrete spec in one pass – goal, scope, non-goals, and acceptance criteria – with assumptions made explicit and the blocking unknowns pulled to the top as open questions.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "session-brief",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/session-brief"],
+      "description": "Distills the current session into a copy-pasteable continuation prompt so a fresh session can resume the work without re-explaining it.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "improve-prompt",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/improve-prompt"],
+      "description": "Rewrites a rough or underperforming prompt into a stronger, copy-pasteable version – pulling the task to the front, filling the structural gaps, resolving contradictions – then explains what changed and flags the gaps only you can fill.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    },
+    {
+      "name": "workflow-architect",
+      "source": "./",
+      "strict": false,
+      "skills": ["./general-SKILLS/workflow-architect"],
+      "description": "Designs closed-loop agent workflows as a reviewable spec before any agent runs – the definition of done, the wired org chart, the loop, the guardrails, and the handoff – right-sized to the task. Works on a new goal or audits and improves an existing workflow.",
+      "license": "Apache-2.0",
+      "author": {
+        "name": "flownrt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.DS_Store
+.fuse_hidden*
+*.skill
+.leak-tokens
+CLAUDE.md
+tools/
+__pycache__/
+*.pyc
