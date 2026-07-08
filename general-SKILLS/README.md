@@ -12,4 +12,5 @@ Broadly useful, domain-agnostic skills.
 | [`red-team`](./red-team) | Build the strongest possible case against a position, idea, plan, or argument and hand it over as a finished product |
 | [`session-brief`](./session-brief) | Distills the current session into a self-contained continuation prompt |
 | [`study`](./study) | Acts as a personal tutor for learning a subject deeply across many sessions |
+| [`skill-engineer`](./skill-engineer) | Guidance for writing, editing, and debugging effective agent skills so they trigger reliably and perform once loaded |
 <!-- skills:end -->
